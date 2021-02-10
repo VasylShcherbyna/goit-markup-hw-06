@@ -577,6 +577,58 @@ body {
   list-style-type: none;
   font-style: normal;
 }
+/*footer-form*/
+.container-form {
+  margin-left: 93px;
+}
+.footer-form {
+}
+.box-mail {
+  display: flex;
+}
+.form-mail {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2f303a;
+}
+.title-form {
+  display: block;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.contact-form-btn {
+  margin-left: 12px;
+  padding: 10px 29px;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.contact-form-btn .footer-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
 /*portfolio*/
 .dark:hover,
 .dark:focus {
@@ -764,6 +816,73 @@ button.current {
 }
 .is-hidden {
   opacity: 0;
-
   pointer-events: none;
+}
+.box-modal {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.contact-form-input {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.contact-form-input:focus {
+  outline: transparent;
+  border: 1px solid #2196f3;
+}
+.contact-form-input:focus ~ .form-icon {
+  fill: #2196f3;
+}
+
+.title-contact-form {
+  display: block;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.box-name {
+  position: relative;
+  margin-bottom: 28px;
+}
+.form-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  width: 18px;
+  height: 18px;
+}
+.modal-box-mail {
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.box-tel {
+  position: relative;
+  margin-bottom: 28px;
+}
+
+.message {
+  resize: none;
+  width: 448px;
+  height: 120px;
+  padding: 12px 16px;
+}
+.label-style {
+  margin-bottom: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
 }
