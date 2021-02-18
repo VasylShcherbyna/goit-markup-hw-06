@@ -149,7 +149,8 @@ body {
   margin-left: auto;
 }
 .list-contakty .link-main {
-  display: block;
+  display: flex;
+  padding: 32px 0;
   height: 16px;
   justify-content: center;
   align-items: center;
@@ -162,7 +163,6 @@ body {
   margin-right: 10px;
 }
 .list-contakty .list-tel {
-  display: block;
   align-items: center;
 }
 .icon-tel {
